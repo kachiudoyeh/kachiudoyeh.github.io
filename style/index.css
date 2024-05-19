@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: #f76b8a;;
+    color: #f76b8a;
 }
 
 a:link {
@@ -58,6 +58,17 @@ a:active {
     padding-right: 40px;   
 }
 
+.contact-us-container {
+    align-items: normal;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 40px;
+    padding-right: 40px;   
+}
+
 
 .tiles-container { 
     display: flex; 
@@ -76,4 +87,37 @@ a:active {
     border: #f76b8a;
     border-radius: 10px; 
     transition: transform 0.3s ease-in-out; 
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #f76b8a;
+    border-radius: 4px;
+  }
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #f76b8a;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #fcfefe;
+    color: #f76b8a;
+    padding: 12px 20px;
+    border: 2px solid #f76b8a;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  
+input[type=submit]:hover {
+  background-color: #f76b8a;
+  color: white;
 }
