@@ -1,10 +1,10 @@
 
 body {
-    background-color: #FFEAEC;
+    background-color: #fcfefe;
 }
 
 a {
-    color: #7E6551;
+    color: #f76b8a;;
 }
 
 a:link {
@@ -33,7 +33,8 @@ a:active {
     margin-right: 20px;
     margin-left: 20px;
     align-content: center;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 25px;
 }
 
 .home-container {
@@ -63,14 +64,16 @@ a:active {
     flex-wrap: wrap; 
     gap: 20px; 
     margin-top: 10px;
+    justify-content: center;
 } 
 
 
 .tile { 
-    flex: 1 0 300px; 
-    background-color: #fff; 
+    flex: 0 0 200px; 
+    background-color: #fcfefe; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    padding: 20px; 
+    padding: 5px;
+    border: #f76b8a;
     border-radius: 10px; 
     transition: transform 0.3s ease-in-out; 
 }
